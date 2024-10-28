@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+html {
+    overflow-y: scroll;
+}
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #ffffff;
+    color: #d7481d;
+    padding: 1em 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(2, 2, 2, 0.2);
+}
+
+header h1 {
+    font-size: 2em;
+    color: #d7481d;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #d7481d;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section#main-content {
+    padding: 2em;
+    margin: 2em auto;
+    max-width: 1100px;
+    background-color: #b2b2b0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(2, 2, 2, 0.2);
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+    background-color: #6e6e6e;
+    border-radius: 8px;
+    max-width: 350px;
+    margin: auto; 
+    color: white;
+
+}
+
+h3 {
+    font-size: 2em;
+    text-align: center;
+    background-color: #6e6e6e;
+    border-radius: 8px;
+    max-width: 300px;
+    color: white;
+    position: relative; left: 120px;
+}
+
+p {
+    background-color: #6e6e6e;
+    max-width: 140px;
+    border-radius: 10px;
+    font-size: 1.2em;
+    text-align: center;
+    position: relative; left: 200px;
+}
+
+.column1{
+    columns: 2;
+
+}
+
+.column2{
+    columns: 2;
+
+}
+
+.column3{
+    columns: 2;
+}
+
+.rozdzialy img {
+    position: relative; left: 195px;
+
+
+}
+
+.pizza img {
+    position: relative;top: 70px;
+}
+.pizza p {
+    position: relative;top: 80px;
+
+}
